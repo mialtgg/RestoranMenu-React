@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from "../assets/banner.jpg"
+import HomeImage from "../assets/Hamburger Day.png"
 
 function Home() {
   return (
-   <div className='Home' style={{backgroundImage:`url(${BannerImage})` }}>
+   <div className='Home' style={{backgroundImage:`url(${HomeImage})` } }>
      <div className='HeaderContainer'> 
      <h1>Deli'ce Burger</h1>
      <p>Burada modunuza uygun<br/> hamburgerler bulabilir<br/> hatta modunuza göre <br/>kendi burgerlerinizi<br/> oluşturabilirsiniz.</p>
